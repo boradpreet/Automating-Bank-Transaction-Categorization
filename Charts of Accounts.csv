@@ -1,0 +1,147 @@
+AccountType,Classification,FullyQualifiedName,Name
+Credit Card,Liability,AAdvantage Aviator,AAdvantage Aviator
+Accounts Payable,Liability,Accounts Payable,Accounts Payable
+Bank,Asset,ANZ_Land Loan Offset_8143,ANZ_Land Loan Offset_8143
+Income,Revenue,RENTS:Rent Income,Rent Income
+Expense,Expense,Repair & Maintenance - Aud,Repair & Maintenance - Aud
+Expense,Expense,Repairs,Repairs
+Expense,Expense,Repairs:Appliances,Appliances
+Expense,Expense,Repairs:Door Lock & Keys,Door Lock & Keys
+Expense,Expense,"Repairs:Door Lock, Key & Materials","Door Lock, Key & Materials"
+Expense,Expense,Repairs:Exterior,Exterior
+Expense,Expense,"Repairs:Fixtures, Doors and Windows","Fixtures, Doors and Windows"
+Expense,Expense,Repairs:General Repairs,General Repairs
+Expense,Expense,Repairs:In House Licenced Plumber,In House Licenced Plumber
+Bank,Asset,ANZ_Land Purchase Loan_7884,ANZ_Land Purchase Loan_7884
+Expense,Expense,Repairs:Plumbing,Plumbing
+Expense,Expense,Repairs:Tenant Turn,Tenant Turn
+Equity,Equity,Retained Earnings,Retained Earnings
+Income,Revenue,Salary-USD,Salary-USD
+Income,Revenue,Sales,Sales
+Income,Revenue,Sales of Product Income,Sales of Product Income
+Bank,Asset,Schwab Joint Tenant_593,Schwab Joint Tenant_593
+Other Current Asset,Asset,Security Deposit,Security Deposit
+Income,Revenue,Tax Refund,Tax Refund
+Expense,Expense,Travel Expense,Travel Expense
+Other Expense,Expense,Ask my Accountant,Ask my Accountant
+Expense,Expense,Travel Expense:Accommodation,Accommodation
+Expense,Expense,Travel Expense:Airfare,Airfare
+Expense,Expense,Travel Expense:Taxi & shared rides,Taxi & shared rides
+Other Current Asset,Asset,Uncategorized Asset,Uncategorized Asset
+Other Current Asset,Asset,Uncategorized Asset ( 72 ),Uncategorized Asset ( 72 )
+Expense,Expense,Uncategorized Expense,Uncategorized Expense
+Income,Revenue,Uncategorized Income,Uncategorized Income
+Other Current Asset,Asset,Undeposited Funds,Undeposited Funds
+Expense,Expense,Utilities,Utilities
+Expense,Expense,Utilities:Cable,Cable
+Expense,Expense,Automobile Expense,Automobile Expense
+Expense,Expense,Utilities:Electricity,Electricity
+Expense,Expense,Utilities:Garbage and Recycling,Garbage and Recycling
+Expense,Expense,Utilities:Gas,Gas
+Expense,Expense,Utilities:Internet Expense,Internet Expense
+Expense,Expense,Utilities:Sewer,Sewer
+Expense,Expense,Utilities:Water,Water
+Bank,Asset,Bank Australia-AUD,Bank Australia-AUD
+Bank,Asset,Bank Australia-AUD:Bank Australia#0054,Bank Australia#0054
+Bank,Asset,Bank Australia-AUD:Bank Australia#7769,Bank Australia#7769
+Bank,Asset,Bank Australia-AUD:Bank Australia#7770,Bank Australia#7770
+Bank,Asset,Bank Australia-AUD:Bank Australia#7771,Bank Australia#7771
+Bank,Asset,Bank Australia-AUD:Bank Australia#9157,Bank Australia#9157
+Accounts Receivable,Asset,Accounts Receivable,Accounts Receivable
+Bank,Asset,Bank Australia-AUD:Bank Australia#9160,Bank Australia#9160
+Credit Card,Liability,Bank of America Virgin Card #8720,Bank of America Virgin Card #8720
+Expense,Expense,Bank Service Charge - Aud,Bank Service Charge - Aud
+Expense,Expense,Bank Service Charges,Bank Service Charges
+Income,Revenue,Billable Expense Income,Billable Expense Income
+Income,Revenue,Billable Expense Income ( 73 ),Billable Expense Income ( 73 )
+Credit Card,Liability,Capital One #1646,Capital One #1646
+Credit Card,Liability,Capital One #1655,Capital One #1655
+Credit Card,Liability,Capital one Card #6830,Capital one Card #6830
+Expense,Expense,Charitable donations,Charitable donations
+Credit Card,Liability,American Express #1004,American Express #1004
+Bank,Asset,Chase Joint Savings #5824,Chase Joint Savings #5824
+Credit Card,Liability,Chase Marriott #3970,Chase Marriott #3970
+Bank,Asset,Chase Personal #5788,Chase Personal #5788
+Bank,Asset,Chase Personal 5788,Chase Personal 5788
+Bank,Asset,Chase Property #0184,Chase Property #0184
+Bank,Asset,Checking,Checking
+Credit Card,Liability,Citi Credit Card #8602,Citi Credit Card #8602
+Expense,Expense,Cleaning and Maintenance,Cleaning and Maintenance
+Expense,Expense,Cleaning and Maintenance:Landscaping,Landscaping
+Expense,Expense,Computer and Internet Expenses,Computer and Internet Expenses
+Credit Card,Liability,American Express #2003,American Express #2003
+Cost of Goods Sold,Expense,Cost of Goods Sold,Cost of Goods Sold
+Expense,Expense,Crypto Investment Loss,Crypto Investment Loss
+Other Income,Revenue,Dividend,Dividend
+Expense,Expense,Door Locks & Keys,Door Locks & Keys
+Expense,Expense,Dues and Subscriptions,Dues and Subscriptions
+Income,Revenue,Fees,Fees
+Income,Revenue,Fees:Late Fee,Late Fee
+Expense,Expense,Fees Exp,Fees Exp
+Expense,Expense,Fees Exp:3rd Party Package,3rd Party Package
+Expense,Expense,Fees Exp:Admin Fees,Admin Fees
+Credit Card,Liability,American express #7008,American express #7008
+Bank,Asset,First Republic #0184,First Republic #0184
+Bank,Asset,First Republic #5788,First Republic #5788
+Bank,Asset,First Republic #5824,First Republic #5824
+Other Expense,Expense,Gas And Fuel - Aud,Gas And Fuel - Aud
+Expense,Expense,Household,Household
+Expense,Expense,Household:Cash Withdrawal,Cash Withdrawal
+Expense,Expense,Household:Fun/Meals/Entertainment,Fun/Meals/Entertainment
+Expense,Expense,Household:Groceries,Groceries
+Expense,Expense,"Household:Health,Fitness,Personal","Health,Fitness,Personal"
+Expense,Expense,Household:Presciptions & Sundries,Presciptions & Sundries
+Credit Card,Liability,American Express Blue Card-1003,American Express Blue Card-1003
+Expense,Expense,Household - Aud,Household - Aud
+Expense,Expense,Household - Aud:Fun/Meals/Entertainment - Aud,Fun/Meals/Entertainment - Aud
+Bank,Asset,HSBC Premier #3550,HSBC Premier #3550
+Expense,Expense,Insurance,Insurance
+Expense,Expense,Insurance Expense,Insurance Expense
+Expense,Expense,Insurance Expense:Life Insurance,Life Insurance
+Other Asset,Asset,Intercompany,Intercompany
+Other Asset,Asset,Intercompany:Sydney Epping Trust # 5537,Sydney Epping Trust # 5537
+Other Asset,Asset,Intercompany:Sydney Epping Trust - Chase #5826,Sydney Epping Trust - Chase #5826
+Other Asset,Asset,Intercompany:Woolf Picture Inc. Chase #3350,Woolf Picture Inc. Chase #3350
+Bank,Asset,ANZ Access Advantage Checking#6568,ANZ Access Advantage Checking#6568
+Expense,Expense,Interest Expense,Interest Expense
+Income,Revenue,Interest Income,Interest Income
+Other Current Asset,Asset,Inventory Asset,Inventory Asset
+Expense,Expense,Investment Accounts,Investment Accounts
+Expense,Expense,Investment Accounts:Vanguard,Vanguard
+Expense,Expense,Legal and Professional Services,Legal and Professional Services
+Expense,Expense,Legal and Professional Services:Legal Fees,Legal Fees
+Other Current Liability,Liability,Loan Payable - Car Loan,Loan Payable - Car Loan
+Expense,Expense,MANAGEMENT FEES,MANAGEMENT FEES
+Expense,Expense,MANAGEMENT FEES:Leasing Fees,Leasing Fees
+Bank,Asset,ANZ_Construction Loan_6823,ANZ_Construction Loan_6823
+Expense,Expense,MANAGEMENT FEES:Management Fees,Management Fees
+Expense,Expense,MANAGEMENT FEES:Posting Fees Expense,Posting Fees Expense
+Other Current Asset,Asset,Management held Security Deposit,Management held Security Deposit
+Expense,Expense,Margin Interest,Margin Interest
+Expense,Expense,Marketing Listing,Marketing Listing
+Income,Revenue,Markup,Markup
+Expense,Expense,Massacussets Woolf Pictures Tax Payment,Massacussets Woolf Pictures Tax Payment
+Expense,Expense,Meals and Entertainment,Meals and Entertainment
+Expense,Expense,Meals and Entertainmnent- Aud,Meals and Entertainmnent- Aud
+Expense,Expense,Mortgage Interest Expense,Mortgage Interest Expense
+Bank,Asset,ANZ_Construction Loan_8562,ANZ_Construction Loan_8562
+Expense,Expense,Office Supplies,Office Supplies
+Equity,Equity,Opening Balance Equity,Opening Balance Equity
+Expense,Expense,Other Business Expenses,Other Business Expenses
+Other Current Asset,Asset,Owner Held Security Deposits,Owner Held Security Deposits
+Other Expense,Expense,Parking and Tolls - Aud,Parking and Tolls - Aud
+Other Current Asset,Asset,Prepaid Rent,Prepaid Rent
+Other Expense,Expense,Reconciliation Discrepancies,Reconciliation Discrepancies
+Income,Revenue,Rental Income,Rental Income
+Income,Revenue,RENTS,RENTS
+Income,Revenue,RENTS:Reimbursements - Utilities,Reimbursements - Utilities
+Income,Revenue,RENTS:Reimbursement - Expense,Reimbursement - Expense
+Expense,Expense,Cleaning and Maintenance:Pest Control,Pest Control
+Other Asset,Asset,Intercompany:Woolf Picture Inc. #7736,Woolf Picture Inc. #7736
+Expense,Expense,Advertisement and Marketing,Advertisement and Marketing
+Expense,Expense,Postage and Shipping,Postage and Shipping
+Expense,Expense,Tax Payment,Tax Payment
+Bank,Asset,Bank Australia 0054,Bank Australia 0054
+Bank,Asset,Bank Australia 0903,Bank Australia 0903
+Bank,Asset,Bank Australia 5523,Bank Australia 5523
+Bank,Asset,Bank Australia#0902,Bank Australia#0902
