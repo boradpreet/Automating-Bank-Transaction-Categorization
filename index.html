@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Classifier</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 50%;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #333;
+        }
+
+        textarea {
+            width: 100%;
+            height: 100px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            border: none;
+            color: white;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .result h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .error {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Transaction Classifier</h1>
+
+        <div class="form-group">
+            <label for="description">Enter Transaction Description:</label>
+            <textarea id="description" placeholder="Enter the transaction description here..."></textarea>
+        </div>
+
+        <button id="predictBtn">Get Prediction</button>
+
+        <div id="result" class="result" style="display: none;">
+            <h3>Prediction Results:</h3>
+            <p><strong>Predicted Matched Name:</strong> <span id="matchedName"></span></p>
+            <p><strong>Predicted Account:</strong> <span id="account"></span></p>
+        </div>
+
+        <div id="error" class="error" style="display: none;"></div>
+    </div>
+
+    <script>
+        document.getElementById("predictBtn").addEventListener("click", function() {
+            var description = document.getElementById("description").value.trim();
+
+            if (!description) {
+                alert("Please enter a description.");
+                return;
+            }
+
+            // Clear previous results
+            document.getElementById("result").style.display = "none";
+            document.getElementById("error").style.display = "none";
+
+            // Send POST request to the Flask API
+            fetch("http://127.0.0.1:5000/predict", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({ description: description })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Show prediction results
+                document.getElementById("matchedName").textContent = data.predicted_matched_name;
+                document.getElementById("account").textContent = data.predicted_account;
+                document.getElementById("result").style.display = "block";
+            })
+            .catch(error => {
+                // Display error message
+                document.getElementById("error").textContent = "Error: Unable to get predictions. Please try again.";
+                document.getElementById("error").style.display = "block";
+            });
+        });
+    </script>
+</body>
+</html>
